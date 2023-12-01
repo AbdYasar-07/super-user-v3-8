@@ -1,0 +1,20 @@
+.p-inputtext {
+  width: 100% !important;
+  border: 1px solid #ced4da !important;
+}
+.p-dialog-header {
+  padding-bottom: 10px !important;
+  border-bottom: 1px solid #ced4dad1 !important;
+}
+.p-dialog-footer {
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+  border-top: 1px solid #ced4dad1 !important;
+}
+.p-button-icon,
+.p-button-label {
+  font-size: 14px !important;
+}
+.p-button {
+  padding: 10px 14px !important;
+}

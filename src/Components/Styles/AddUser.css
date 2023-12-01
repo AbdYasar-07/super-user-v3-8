@@ -1,0 +1,22 @@
+.customModal {
+  background: #00000054;
+  padding: 10px 0px;
+  position: fixed;
+  top: -10px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1060;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  transition: all ease 0.6s;
+}
+.transitionEffect{
+ top:0;
+}
+.cursorDisable{
+  cursor: not-allowed ;
+}

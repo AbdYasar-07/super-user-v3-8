@@ -1,0 +1,6 @@
+.tableDataModal .modal-dialog {
+  width: fit-content !important;
+}
+.confirmationModal .modal-dialog {
+  width: 300px !important;
+}

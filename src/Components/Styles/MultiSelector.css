@@ -1,0 +1,16 @@
+ul {
+    padding: 0 !important;
+}
+
+.p-multiselect.p-multiselect-chip .p-multiselect-token {
+    padding: 4px 13px;
+}
+
+.p-multiselect-token-label {
+    font-size: 12px !important;
+}
+
+.p-multiselect-token-label svg {
+    width: 12px !important;
+    height: 12px !important;
+}

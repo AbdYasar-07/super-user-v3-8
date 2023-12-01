@@ -1,0 +1,10 @@
+.pMessage {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #9ba8b7;
+}
+
+.createMember {
+  border-radius: "10px !important";
+}

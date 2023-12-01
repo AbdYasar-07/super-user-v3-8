@@ -1,0 +1,11 @@
+nav{
+    box-shadow: 5px 5px 5px #adadad50;
+}
+.buttonStyle{
+    display: inline-block;
+    transform: translateY(-6px);
+    font-size: 20px;
+    width: 96px;
+    height: 48px;
+    vertical-align: middle;
+}

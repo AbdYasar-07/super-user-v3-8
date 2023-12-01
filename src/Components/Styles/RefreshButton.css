@@ -1,0 +1,54 @@
+@keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .refresh {
+      background: #0d6efd;
+      box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+      padding: 8px;
+      border: 0;
+      border-radius: 4px;
+      width: 60px;
+      line-height: 18px;
+      height: 38px;
+      margin: 0 auto;
+      display: block;
+      .icon {
+          fill: #FFF;
+      }
+      &:hover {
+          background: #0d6efd;
+          cursor: pointer;
+      }
+      &:active {
+          .icon {
+              fill: #FFF;
+          }
+      }
+      &.loading {
+          background: #0d6efd;
+          cursor: wait;
+          .icon {
+              fill: #FFF;
+              -webkit-animation: rotating 1.2s linear infinite;
+              -moz-animation: rotating 1.2s linear infinite;
+              -ms-animation: rotating 1.2s linear infinite;
+              -o-animation: rotating 1.2s linear infinite;
+              animation: rotating 1.2s linear infinite;
+          }
+      }
+  }
